@@ -73,6 +73,7 @@
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Scripts\Mirros.cs" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
      <None Include="Assets\RainMaker\Readme.txt" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
