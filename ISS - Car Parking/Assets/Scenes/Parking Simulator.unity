@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 293608686d0109b4eaad271788c17dba, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -449,6 +449,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8082565330314397969, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
   m_PrefabInstance: {fileID: 186009029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &199817000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 75874839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &199817001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199817000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &199817004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199817000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
 --- !u!1 &229073364
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +933,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465054, guid: 4531f4941a67045459499f23ed5bc711, type: 3}
   m_PrefabInstance: {fileID: 384354038}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &401579342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 1289016384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &401579343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401579342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &401579346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401579342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
 --- !u!1001 &412245642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1667,7 +1743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802298405}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.8, y: 0, z: 1}
+  m_LocalPosition: {x: -5.5, y: 0, z: 1}
   m_LocalScale: {x: 120, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1981430006}
@@ -1919,7 +1995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880834966}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 6.203817, y: 0, z: -1.161562}
+  m_LocalPosition: {x: 6, y: 0, z: -1.161562}
   m_LocalScale: {x: 120, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1981430006}
@@ -1987,6 +2063,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 461488352999480662, guid: 332ef6a447c3b94489f35ad845e8b7ad, type: 3}
   m_PrefabInstance: {fileID: 897852747}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &917856540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 1427772100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &917856541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917856540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &917856544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917856540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
 --- !u!1001 &933697215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2493,7 +2607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081590308}
   m_LocalRotation: {x: 0, y: 0.7372774, z: 0, w: 0.67559016}
-  m_LocalPosition: {x: 0.85, y: 0.8899981, z: 0.4}
+  m_LocalPosition: {x: 0.88, y: 0.85, z: 0.4}
   m_LocalScale: {x: 0.001, y: 0.17, z: -0.28}
   m_Children: []
   m_Father: {fileID: 1315577906}
@@ -2669,6 +2783,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 100631177626346328, guid: c1e1f398cab58394cb2187fef2ffc46d, type: 3}
   m_PrefabInstance: {fileID: 1106272101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1108196846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 1653120142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1108196847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108196846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &1108196850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108196846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
 --- !u!1 &1118503961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3437,6 +3589,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8082565330314397969, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
   m_PrefabInstance: {fileID: 1427772100}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1444042475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 1828474362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1444042476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444042475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &1444042479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444042475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
+--- !u!1 &1452600449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 675209093200180805, guid: cf29fabe5be425d4fa58702a405410ec, type: 3}
+  m_PrefabInstance: {fileID: 186009029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1452600450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452600449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 4.666175, z: 0.3}
+  m_Center: {x: 0, y: 2.3330874, z: 0.000000007450581}
+--- !u!114 &1452600453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452600449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d86f5d96f1d73942a2008160613b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageOnTrigger: 1
+  damageOnCollision: 0
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
 --- !u!1 &1468233764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,7 +4601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107941161}
   m_LocalRotation: {x: 0, y: 0.67559016, z: 0, w: 0.7372774}
-  m_LocalPosition: {x: -0.82, y: 0.8899981, z: 0.4}
+  m_LocalPosition: {x: -0.88, y: 0.85, z: 0.4}
   m_LocalScale: {x: 0.001, y: 0.17, z: -0.28}
   m_Children: []
   m_Father: {fileID: 1315577906}
