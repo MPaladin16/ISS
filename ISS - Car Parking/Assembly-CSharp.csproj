@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Distant Lands\Free Characters\Contents\Prefabs\PeriodicGameObjectsSpawn.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\TargetMover.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
     <Compile Include="Assets\rpg animations\scripts\CameraController.cs" />
@@ -62,7 +63,7 @@
     <Compile Include="Assets\rpg animations\scripts\WorldInteraction.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\ProtectCameraFromWallClip.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\script\Damage.cs" />
+    <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
     <Compile Include="Assets\Scripts\ExitButton.cs" />
@@ -105,12 +106,12 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Distant Lands\Free Characters\Contents\Prefabs\Walking.cs" />
+    <Compile Include="Assets\Distant Lands\Free Characters\Contents\InitialGameObjectsSpawn.cs" />
     <Compile Include="Assets\rpg animations\scripts\UI_no_weapon.cs" />
     <Compile Include="Assets\Scripts\Mirros.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\script\Health.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Distant Lands\Free Characters\Contents\Prefabs\PeriodicGameObjectsSpawn.cs" />
-    <Compile Include="Assets\Distant Lands\Free Characters\Contents\InitialGameObjectsSpawn.cs" />
+    <Compile Include="Assets\Scripts\DamageHumans.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
