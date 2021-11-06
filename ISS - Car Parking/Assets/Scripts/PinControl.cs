@@ -22,7 +22,7 @@ public class PinControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             if (keyOnce == false)
             {
@@ -52,7 +52,7 @@ public class PinControl : MonoBehaviour
             }
 
         }
-        else if (Input.GetKey(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
 
             if (keyOnce == false)
