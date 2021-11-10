@@ -1266,6 +1266,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 0
   LevelToLoad: Parking Simulator
@@ -1290,6 +1292,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 0
   LevelToLoad: Parking Simulator
@@ -1973,6 +1977,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 5
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 1
   LevelToLoad: 
@@ -2227,7 +2233,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -2370,6 +2376,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 5
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 1
   LevelToLoad: 
@@ -3685,7 +3693,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 1.5, z: 3.2}
+  m_Size: {x: 1.7, y: 1.5, z: 3.3}
   m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!114 &1275195052
 MonoBehaviour:
@@ -3948,6 +3956,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
+  Camera1: {fileID: 963194225}
+  Camera2: {fileID: 855329041}
   explosionPrefab: {fileID: 0}
   onLivesGone: 0
   LevelToLoad: Parking Simulator
@@ -4123,7 +4133,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 1.5, z: 3.2}
+  m_Size: {x: 1.7, y: 1.5, z: 3.3}
   m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!1 &1381983276
 GameObject:
@@ -4259,6 +4269,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 5
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 1
   LevelToLoad: 
@@ -4299,6 +4311,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 0
   LevelToLoad: Parking Simulator
@@ -4652,6 +4666,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 1
   LevelToLoad: 
@@ -4863,7 +4879,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 1.5, z: 3.2}
+  m_Size: {x: 1.7, y: 1.5, z: 3.3}
   m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!1001 &1653120142
 PrefabInstance:
@@ -5416,6 +5432,8 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 5
   isAlive: 1
+  Camera1: {fileID: 0}
+  Camera2: {fileID: 0}
   explosionPrefab: {fileID: 0}
   onLivesGone: 1
   LevelToLoad: 

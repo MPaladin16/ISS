@@ -11,6 +11,9 @@ public class Health : MonoBehaviour {
 	public int numberOfLives = 1;					//lives and variables for respawning
 	public bool isAlive = true;	
 
+	public GameObject Camera1;
+	public GameObject Camera2;
+
 	public GameObject explosionPrefab;
 	
 	public deathAction onLivesGone = deathAction.doNothingWhenDead;
@@ -27,7 +30,9 @@ public class Health : MonoBehaviour {
 		// store initial position as respawn location
 		respawnPosition = transform.position;
 		respawnRotation = transform.rotation;
-		
+		Camera1.SetActive(true);
+		Camera2.SetActive(false);
+
 		if (LevelToLoad=="") // default to current scene 
 		{
 			LevelToLoad = Application.loadedLevelName;
@@ -54,7 +59,20 @@ public class Health : MonoBehaviour {
 				switch(onLivesGone)
 				{
 				case deathAction.loadLevelWhenDead:
-					Application.LoadLevel (LevelToLoad);
+						{
+							Camera1.SetActive(false);
+							Camera2.SetActive(true);
+
+							while (true)
+							{
+								if (Input.GetKeyDown("space")) {
+									break;
+
+								}
+
+							}
+							Application.LoadLevel(LevelToLoad);
+						}
 					break;
 				case deathAction.doNothingWhenDead:
 					// do nothing, death must be handled in another way elsewhere
