@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\SelectInitial.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
+    <Compile Include="Assets\Scripts\DamageHumans.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
@@ -111,7 +112,6 @@
     <Compile Include="Assets\Scripts\Mirros.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\DamageHumans.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
