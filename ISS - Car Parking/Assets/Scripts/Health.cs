@@ -43,8 +43,18 @@ public class Health : MonoBehaviour {
 	void Update () 
 	{
 		if (healthPoints <= 0) {				// if the object is 'dead'
-			numberOfLives--;					// decrement # of lives, update lives GUI
+			numberOfLives--;
+			Camera2.SetActive(true);
+			Camera1.SetActive(false);
 			
+			while (true)
+			{
+				if (Input.GetKeyDown("space"))
+				{
+					break;
+				}
+
+			}
 			if (explosionPrefab!=null) {
 				Instantiate (explosionPrefab, transform.position, Quaternion.identity);
 			}
@@ -59,21 +69,8 @@ public class Health : MonoBehaviour {
 				switch(onLivesGone)
 				{
 				case deathAction.loadLevelWhenDead:
-						{
-							Camera1.SetActive(false);
-							Camera2.SetActive(true);
-
-							while (true)
-							{
-								if (Input.GetKeyDown("space")) {
-									break;
-
-								}
-
-							}
 							Application.LoadLevel(LevelToLoad);
-						}
-					break;
+							break;
 				case deathAction.doNothingWhenDead:
 					// do nothing, death must be handled in another way elsewhere
 					break;
