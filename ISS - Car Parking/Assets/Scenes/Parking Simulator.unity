@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802298405}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
   m_Name: 
@@ -2367,7 +2367,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880834966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
   m_Name: 
@@ -4260,7 +4260,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381983276}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
   m_Name: 
@@ -4650,27 +4650,6 @@ MonoBehaviour:
   destroySelfOnImpact: 1
   delayBeforeDestroy: 0
   explosionPrefab: {fileID: 0}
---- !u!114 &1507877821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507877816}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 100
-  respawnHealthPoints: 1
-  numberOfLives: 1
-  isAlive: 1
-  Camera1: {fileID: 0}
-  Camera2: {fileID: 0}
-  explosionPrefab: {fileID: 0}
-  onLivesGone: 1
-  LevelToLoad: 
 --- !u!1001 &1525464641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5423,7 +5402,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766936936}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
   m_Name: 
