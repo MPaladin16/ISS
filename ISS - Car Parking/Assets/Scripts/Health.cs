@@ -8,11 +8,11 @@ public class Health : MonoBehaviour {
 	public float healthPoints = 1f;
 	public float respawnHealthPoints = 1f;		//base health points
 	
-	public int numberOfLives = 1;					//lives and variables for respawning
-	public bool isAlive = true;	
+	public int numberOfLives = 1;                   //lives and variables for respawning
+    public bool isAlive = true;
 
-	public GameObject Camera1;
-	public GameObject Camera2;
+	public GameObject camera1;
+	public GameObject camera2;
 
 	public GameObject explosionPrefab;
 	
@@ -30,8 +30,8 @@ public class Health : MonoBehaviour {
 		// store initial position as respawn location
 		respawnPosition = transform.position;
 		respawnRotation = transform.rotation;
-		Camera1.SetActive(true);
-		Camera2.SetActive(false);
+			camera1.SetActive(true);
+			camera2.SetActive(false);
 
 		if (LevelToLoad=="") // default to current scene 
 		{
@@ -44,8 +44,8 @@ public class Health : MonoBehaviour {
 	{
 		if (healthPoints <= 0) {				// if the object is 'dead'
 			numberOfLives--;
-			Camera2.SetActive(true);
-			Camera1.SetActive(false);
+			camera2.SetActive(true);
+			camera1.SetActive(false);
 			
 			while (true)
 			{
@@ -79,6 +79,7 @@ public class Health : MonoBehaviour {
 			}
 		}
 	}
+	
 	
 	public void ApplyDamage(float amount)
 	{	
