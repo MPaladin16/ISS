@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour {
 	
@@ -19,7 +20,10 @@ public class Health : MonoBehaviour {
 	public deathAction onLivesGone = deathAction.doNothingWhenDead;
 	
 	public string LevelToLoad = "";
-	
+
+	//public Canvas Canvas;
+
+
 	private Vector3 respawnPosition;
 	private Quaternion respawnRotation;
 	
@@ -30,6 +34,11 @@ public class Health : MonoBehaviour {
 		// store initial position as respawn location
 		respawnPosition = transform.position;
 		respawnRotation = transform.rotation;
+
+		//Canvas.gameObject.SetActive(false);
+
+		camera1 = GameObject.Find("Main Camera");
+		camera2 = GameObject.Find("DeathCamera");
 			camera1.SetActive(true);
 			camera2.SetActive(false);
 
@@ -47,14 +56,6 @@ public class Health : MonoBehaviour {
 			camera2.SetActive(true);
 			camera1.SetActive(false);
 			
-			while (true)
-			{
-				if (Input.GetKeyDown("space"))
-				{
-					break;
-				}
-
-			}
 			if (explosionPrefab!=null) {
 				Instantiate (explosionPrefab, transform.position, Quaternion.identity);
 			}
@@ -69,7 +70,10 @@ public class Health : MonoBehaviour {
 				switch(onLivesGone)
 				{
 				case deathAction.loadLevelWhenDead:
-							Application.LoadLevel(LevelToLoad);
+						{
+							//Canvas.gameObject.SetActive(true);
+							Time.timeScale = 0;
+						}
 							break;
 				case deathAction.doNothingWhenDead:
 					// do nothing, death must be handled in another way elsewhere
@@ -78,6 +82,20 @@ public class Health : MonoBehaviour {
 				Destroy(gameObject);
 			}
 		}
+		if (Input.GetKeyDown("r"))
+		{
+			Time.timeScale = 1;
+
+
+			Application.LoadLevel(LevelToLoad);
+		}
+		if (Input.GetKeyDown("m"))
+		{
+			Time.timeScale = 1;
+
+			SceneManager.LoadScene("Menu");
+		}
+
 	}
 	
 	
