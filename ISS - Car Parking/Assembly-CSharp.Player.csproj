@@ -68,6 +68,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
     <Compile Include="Assets\Scripts\ExitButton.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\NewBehaviourScript.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OnCollisionPush.cs" />
@@ -80,7 +81,9 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
     <Compile Include="Assets\rpg animations\scripts\UI_sword.cs" />
     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\rpg animations\scripts\ScrollSwitcher.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\EnableDeathPanel.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
@@ -112,16 +115,18 @@
     <Compile Include="Assets\Scripts\Mirros.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader3.shader" />
     <None Include="Assets\RainMaker\Readme.txt" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
     <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader2 1.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
