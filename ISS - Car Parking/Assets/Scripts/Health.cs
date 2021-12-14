@@ -33,6 +33,7 @@ public class Health : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         death = false;
         // store initial position as respawn location
         respawnPosition = transform.position;
@@ -54,8 +55,8 @@ public class Health : MonoBehaviour
     void Update()
     {
         if (healthPoints <= 0)
-        {               // if the object is 'dead'
-
+        {
+            GameObject.FindGameObjectWithTag("stopericaPanel").gameObject.SetActive(false);
             death = true;
             numberOfLives--;
             GameObject.Find("DeathCameraParent").gameObject.transform.GetChild(1).gameObject.SetActive(true);
@@ -98,6 +99,7 @@ public class Health : MonoBehaviour
             {
                 Time.timeScale = 1;
 
+                InputsCounter.firstW = false;
 
                 Application.LoadLevel(LevelToLoad);
             }
