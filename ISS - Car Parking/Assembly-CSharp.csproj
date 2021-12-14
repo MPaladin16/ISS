@@ -103,6 +103,7 @@
      <Compile Include="Assets\Scripts\TimePassed.cs" />
      <Compile Include="Assets\Scripts\InputsCounter.cs" />
      <Compile Include="Assets\Scripts\InputStats.cs" />
+     <Compile Include="Assets\Scripts\CrashOrFinished.cs" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader3.shader" />

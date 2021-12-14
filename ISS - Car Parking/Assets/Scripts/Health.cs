@@ -54,7 +54,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (healthPoints <= 0)
+        if (healthPoints <= 0 || InputsCounter.enterPressed == true)
         {
             GameObject.FindGameObjectWithTag("stopericaPanel").gameObject.SetActive(false);
             death = true;
@@ -93,12 +93,11 @@ public class Health : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        if (GameObject.FindGameObjectWithTag("deathPanel").activeInHierarchy)
+        if (GameObject.FindGameObjectWithTag("deathPanel").activeInHierarchy || InputsCounter.enterPressed == true)
         {
             if (Input.GetKeyDown("r"))
             {
                 Time.timeScale = 1;
-
                 InputsCounter.firstW = false;
 
                 Application.LoadLevel(LevelToLoad);

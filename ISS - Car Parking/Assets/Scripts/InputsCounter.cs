@@ -5,11 +5,13 @@ using UnityEngine;
 public class InputsCounter : MonoBehaviour
 {
     public static int wCounter, sCounter, aCounter, dCounter, spaceCounter;
+    public static bool enterPressed;
     private bool switcher;
     public static bool firstW;
     // Start is called before the first frame update
     void Start()
     {
+        enterPressed = false;
         firstW = false;
         switcher = false;
         wCounter = 0;
@@ -42,6 +44,11 @@ public class InputsCounter : MonoBehaviour
             {
                 if (switcher == false)
                 {
+                    if (firstW == false)
+                    {
+                        TimerTIme.startTime = Time.time;
+                        firstW = true;
+                    }
                     sCounter++;
                     switcher = true;
                     Invoke("releaseSwitcher", 0.5f);
@@ -73,6 +80,10 @@ public class InputsCounter : MonoBehaviour
                     switcher = true;
                     Invoke("releaseSwitcher", 0.5f);
                 }
+            }
+            else if (Input.GetKeyDown(KeyCode.Return))
+            {
+                enterPressed = true;
             }
             else
             {
