@@ -54,7 +54,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (healthPoints <= 0 || InputsCounter.enterPressed == true || DetectSuccess.success == true)
+        if (healthPoints <= 0 || InputsCounter.enterPressed == true || InputsCounter.engineOff == true)
         {
             GameObject.FindGameObjectWithTag("stopericaPanel").gameObject.SetActive(false);
             death = true;

@@ -18,7 +18,7 @@ public class CrashOrFinished : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (InputsCounter.enterPressed == true && DetectSuccess.success == false)
+        if (InputsCounter.enterPressed == true && InputsCounter.engineOff == false)
         {
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(true);
@@ -37,7 +37,7 @@ public class CrashOrFinished : MonoBehaviour
                 SceneManager.LoadScene("Menu");
             }
         }
-        else if (InputsCounter.enterPressed == false && DetectSuccess.success == true)
+        else if (InputsCounter.enterPressed == false && InputsCounter.engineOff == true)
         {
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(false);

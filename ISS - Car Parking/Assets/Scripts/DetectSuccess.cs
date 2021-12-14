@@ -20,6 +20,7 @@ public class DetectSuccess : MonoBehaviour
     {
         if (insideBadCollider == false && insideGoodCollider == true && insideBadCollider2 == false)
         {
+            Debug.Log("SUCCESS");
             success = true;
         }
         else
@@ -33,12 +34,10 @@ public class DetectSuccess : MonoBehaviour
     {
         if (col.gameObject.tag == "goodCollider")
         {
-            Debug.Log("INSIDE GOOD COLLIDER");
             insideGoodCollider = true;
         }
         else if (col.gameObject.tag == "badCollider1" || col.gameObject.tag == "badCollider2")
         {
-            Debug.Log("INSIDE BAD COLLIDER");
             insideBadCollider = true;
         }
     }
@@ -48,17 +47,14 @@ public class DetectSuccess : MonoBehaviour
     {
         if (col.gameObject.tag == "badCollider1")
         {
-            Debug.Log("OUTSIDE BAD COLLIDER1");
             insideBadCollider = false;
         }
         else if (col.gameObject.tag == "badCollider2")
         {
-            Debug.Log("OUTSIDE BAD COLLIDER2");
             insideBadCollider2 = false;
         }
         else if (col.gameObject.tag == "goodCollider")
         {
-            Debug.Log("OUTSIDE GOOD COLLIDER");
             insideGoodCollider = false;
         }
     }

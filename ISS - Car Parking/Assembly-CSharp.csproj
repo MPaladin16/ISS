@@ -105,6 +105,7 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
      <Compile Include="Assets\Scripts\DetectSuccess.cs" />
+     <Compile Include="Assets\Scripts\TurnOffTheEngine.cs" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
      <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader3.shader" />
