@@ -56,7 +56,7 @@ public class Health : MonoBehaviour
     {
         if (healthPoints <= 0 || InputsCounter.enterPressed == true || InputsCounter.engineOff == true)
         {
-            GameObject.FindGameObjectWithTag("stopericaPanel").gameObject.SetActive(false);
+            GameObject.Find("Štoperica").gameObject.transform.GetChild(0).gameObject.SetActive(false);
             death = true;
             numberOfLives--;
             GameObject.Find("DeathCameraParent").gameObject.transform.GetChild(1).gameObject.SetActive(true);
