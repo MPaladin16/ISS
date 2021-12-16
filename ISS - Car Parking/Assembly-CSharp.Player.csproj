@@ -63,6 +63,7 @@
     <Compile Include="Assets\rpg animations\scripts\WorldInteraction.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\Scripts\TimePassed.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\NewBehaviourScript.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+    <Compile Include="Assets\Scripts\InputStats.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OnCollisionPush.cs" />
     <Compile Include="Assets\rpg animations\scripts\HidingMachineBehaviour.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\rpg animations\scripts\ScrollSwitcher.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\EnableDeathPanel.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
+    <Compile Include="Assets\Scripts\CrashOrFinished.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
@@ -99,6 +102,7 @@
     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\Scripts\DamageHumans.cs" />
+    <Compile Include="Assets\Scripts\InputsCounter.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
@@ -106,8 +110,10 @@
     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Scripts\DisablePanel.cs" />
+    <Compile Include="Assets\Scripts\TimerTIme.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
+    <Compile Include="Assets\Scripts\HideStoperica.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Distant Lands\Free Characters\Contents\Prefabs\Walking.cs" />
     <Compile Include="Assets\Distant Lands\Free Characters\Contents\InitialGameObjectsSpawn.cs" />
