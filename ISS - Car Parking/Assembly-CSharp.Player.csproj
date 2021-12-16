@@ -87,7 +87,6 @@
     <Compile Include="Assets\rpg animations\scripts\ScrollSwitcher.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\EnableDeathPanel.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
-    <Compile Include="Assets\Scripts\CrashOrFinished.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
@@ -102,7 +101,6 @@
     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\Scripts\DamageHumans.cs" />
-    <Compile Include="Assets\Scripts\InputsCounter.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
