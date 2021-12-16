@@ -18,10 +18,30 @@ public class CrashOrFinished : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (InputsCounter.enterPressed == true)
+        if (InputsCounter.enterPressed == true && InputsCounter.engineOff == false)
         {
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            this.gameObject.transform.GetChild(2).gameObject.SetActive(false);
+            if (Input.GetKeyDown("r"))
+            {
+                Time.timeScale = 1;
+                InputsCounter.firstW = false;
+
+                Application.LoadLevel(LevelToLoad);
+            }
+            if (Input.GetKeyDown("m"))
+            {
+                Time.timeScale = 1;
+
+                SceneManager.LoadScene("Menu");
+            }
+        }
+        else if (InputsCounter.enterPressed == false && InputsCounter.engineOff == true)
+        {
+            this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            this.gameObject.transform.GetChild(2).gameObject.SetActive(true);
             if (Input.GetKeyDown("r"))
             {
                 Time.timeScale = 1;

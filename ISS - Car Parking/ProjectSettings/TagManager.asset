@@ -8,6 +8,9 @@ TagManager:
   - deathPanel
   - deathCam
   - stopericaPanel
+  - goodCollider
+  - badCollider1
+  - badCollider2
   layers:
   - Default
   - TransparentFX
