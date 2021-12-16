@@ -42,6 +42,7 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(2).gameObject.SetActive(true);
+
             if (Input.GetKeyDown("r"))
             {
                 Time.timeScale = 1;
