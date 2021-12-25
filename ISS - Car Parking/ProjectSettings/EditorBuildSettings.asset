@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Parking Simulator.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Parking Simulator Rain.unity
+    guid: 0dd49478c6c8f364cac2afa8be59d2a2
   m_configObjects: {}

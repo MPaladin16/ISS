@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4458081, g: 0.49553084, b: 0.5743168, a: 1}
+  m_IndirectSpecularColor: {r: 0.44580775, g: 0.4955305, b: 0.5743165, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 60304498}
   - component: {fileID: 60304497}
   - component: {fileID: 60304496}
+  - component: {fileID: 60304500}
   m_Layer: 5
   m_Name: RainModeBtn
   m_TagString: Untagged
@@ -185,7 +186,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 60304497}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 60304500}
+        m_TargetAssemblyTypeName: RainModeButton, Assembly-CSharp
+        m_MethodName: changeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &60304497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +256,18 @@ RectTransform:
   m_AnchoredPosition: {x: 221.76868, y: -119.68}
   m_SizeDelta: {x: 343.5375, y: 57.9618}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &60304500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60304495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20118f4c0191804ba77c49a9df99fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &62390504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5384,9 +5409,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1426668980}
+      - m_Target: {fileID: 1426668978}
         m_TargetAssemblyTypeName: NormalModeButto, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

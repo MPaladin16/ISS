@@ -23,6 +23,10 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             this.gameObject.transform.GetChild(2).gameObject.SetActive(false);
+
+            this.gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
+
             if (Input.GetKeyDown("r"))
             {
                 Time.timeScale = 1;
@@ -43,6 +47,22 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
             this.gameObject.transform.GetChild(2).gameObject.SetActive(true);
 
+
+            if (TimerTIme.passedTime < 30 && InputsCounter.wCounter < 3) {
+                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            }
+
+            else if (TimerTIme.passedTime < 45)
+            {
+                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            }
+            else {
+                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            }
+
+
+
+
             if (Input.GetKeyDown("r"))
             {
                 Time.timeScale = 1;
@@ -61,6 +81,8 @@ public class CrashOrFinished : MonoBehaviour
         {
             this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
             this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            this.gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
         }
     }
 }
