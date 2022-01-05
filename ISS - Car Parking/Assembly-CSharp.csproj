@@ -124,6 +124,7 @@
     <Compile Include="Assets\Scripts\Mirros.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Scripts\GradingSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader.shader" />

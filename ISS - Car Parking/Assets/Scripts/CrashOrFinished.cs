@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 public class CrashOrFinished : MonoBehaviour
 {
     public string LevelToLoad = "";
@@ -48,17 +46,10 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(2).gameObject.SetActive(true);
 
 
-            if (TimerTIme.passedTime < 30 && InputsCounter.wCounter < 3) {
-                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            }
-
-            else if (TimerTIme.passedTime < 45)
-            {
-                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(1).gameObject.SetActive(true);
-            }
-            else {
-                this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).gameObject.SetActive(true);
-            }
+         
+            this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).
+                gameObject.GetComponent<Text>().text = "Ocjena: "+ GradingSystem.Grade.ToString("F2") + "/10";
 
 
 
