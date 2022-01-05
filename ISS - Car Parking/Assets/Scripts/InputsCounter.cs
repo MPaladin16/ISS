@@ -7,6 +7,7 @@ public class InputsCounter : MonoBehaviour
     public static int wCounter, sCounter, aCounter, dCounter, spaceCounter;
     public static bool enterPressed, engineOff;
     private bool switcher;
+    private bool LastW = false, LastS = false;
     public static bool firstW;
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,12 @@ public class InputsCounter : MonoBehaviour
                         TimerTIme.startTime = Time.time;
                         firstW = true;
                     }
-                    wCounter++;
+                    if (LastW == false)
+                    {
+                        wCounter++;
+                    }
+                    LastW = true;
+                    LastS = false;
                     switcher = true;
                     Invoke("releaseSwitcher", 0.5f);
                 }
@@ -50,7 +56,12 @@ public class InputsCounter : MonoBehaviour
                         TimerTIme.startTime = Time.time;
                         firstW = true;
                     }
-                    sCounter++;
+                    if (LastS == false)
+                    {
+                        sCounter++;
+                    }
+                    LastS = true;
+                    LastW = false;
                     switcher = true;
                     Invoke("releaseSwitcher", 0.5f);
                 }

@@ -95,6 +95,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SkidTrail.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
+    <Compile Include="Assets\Scripts\RainModeButton.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
     <Compile Include="Assets\rpg animations\scripts\WeaponHide.cs" />
     <Compile Include="Assets\Scripts\PinControl.cs" />
@@ -123,7 +124,6 @@
     <Compile Include="Assets\Scripts\Mirros.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\RainModeButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\script\cameraShader.shader" />
