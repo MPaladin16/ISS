@@ -6356,7 +6356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5498434, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
       propertyPath: m_Mass
-      value: 1500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 6544948, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
       propertyPath: m_Size.x
@@ -6399,12 +6399,20 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 11452772, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
+      propertyPath: m_SlipLimit
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452772, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
       propertyPath: m_ReverseTorque
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 11452772, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
       propertyPath: m_TractionControl
-      value: 0.55
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452772, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
+      propertyPath: m_MaximumSteerAngle
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 11452772, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
       propertyPath: m_FullTorqueOverAllWheels
@@ -6818,7 +6826,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.85, y: 2.3, z: 9.16}
+  m_Size: {x: 5.7, y: 2.3, z: 9.16}
   m_Center: {x: -4.8, y: -1.73, z: 0.1}
 --- !u!1001 &1378614309
 PrefabInstance:
