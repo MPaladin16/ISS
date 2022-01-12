@@ -95,6 +95,8 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SkidTrail.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
+    <Compile Include="Assets\Scripts\RainModeButton.cs" />
+    <Compile Include="Assets\Scripts\GradingSystem.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
     <Compile Include="Assets\rpg animations\scripts\WeaponHide.cs" />
     <Compile Include="Assets\Scripts\PinControl.cs" />
