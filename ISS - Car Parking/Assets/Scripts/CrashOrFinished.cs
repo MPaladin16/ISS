@@ -23,7 +23,7 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(2).gameObject.SetActive(false);
 
             this.gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject.SetActive(true);
-
+            Health.death = true;
 
             if (Input.GetKeyDown("r"))
             {
@@ -50,7 +50,7 @@ public class CrashOrFinished : MonoBehaviour
             this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).gameObject.SetActive(true);
             this.gameObject.transform.GetChild(2).gameObject.transform.GetChild(2).
                 gameObject.GetComponent<Text>().text = "Ocjena: "+ GradingSystem.Grade.ToString("F2") + "/10";
-
+            Health.death = true;
 
 
 

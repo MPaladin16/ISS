@@ -2134,32 +2134,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563082627}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &568451109 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 153480, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
-  m_PrefabInstance: {fileID: 1315577905}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &568451114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568451109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 1
-  respawnHealthPoints: 1
-  numberOfLives: 1
-  isAlive: 1
-  camera1: {fileID: 0}
-  camera2: {fileID: 0}
-  explosionPrefab: {fileID: 0}
-  onLivesGone: 0
-  LevelToLoad: Parking Simulator
 --- !u!1 &590758254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,32 +2229,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590758254}
   m_CullTransparentMesh: 1
---- !u!1 &603683752 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 161194, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
-  m_PrefabInstance: {fileID: 1315577905}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &603683757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603683752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 1
-  respawnHealthPoints: 1
-  numberOfLives: 1
-  isAlive: 1
-  camera1: {fileID: 0}
-  camera2: {fileID: 0}
-  explosionPrefab: {fileID: 0}
-  onLivesGone: 0
-  LevelToLoad: Parking Simulator
 --- !u!1 &623367673
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,6 +6406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b62d700f190dda4383e9dd2a778fa9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MC1: {fileID: 1865321340}
+  MC2: {fileID: 180591598}
 --- !u!114 &1315577913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6973,32 +6923,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1405335396 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 162528, guid: ffe00fa3bd41b9a4db665bf728e3c1e1, type: 3}
-  m_PrefabInstance: {fileID: 1315577905}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1405335401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405335396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0c953bb57e272247a642c0110bee933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 1
-  respawnHealthPoints: 1
-  numberOfLives: 1
-  isAlive: 1
-  camera1: {fileID: 0}
-  camera2: {fileID: 0}
-  explosionPrefab: {fileID: 0}
-  onLivesGone: 0
-  LevelToLoad: Parking Simulator
 --- !u!1001 &1427772100
 PrefabInstance:
   m_ObjectHideFlags: 0
