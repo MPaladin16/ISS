@@ -61,6 +61,7 @@ public class Health : MonoBehaviour
             numberOfLives--;
             GameObject.Find("DeathCameraParent").gameObject.transform.GetChild(1).gameObject.SetActive(true);
             camera1.SetActive(false);
+            camera2.SetActive(true);
             //    Invoke("moveCamera", 2f);
 
             if (explosionPrefab != null)
